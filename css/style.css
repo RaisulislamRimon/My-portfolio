@@ -1,0 +1,344 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: sans-serif;
+}
+h1{
+	color: black;
+	font-size: 2.25rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+h6{
+	color: blue;
+	font-size: 1.125rem;
+	font-weight: 500;
+	text-align: center;		
+}
+p{
+	color: #a0a0a0;
+	font-size: 1rem;
+	line-height: 1.8;
+	text-align: center;
+}
+section{
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+.col-33{
+	width: 33%;
+	float: left;
+	text-align:center;
+	font-size: 1.25rem;
+}
+.col-25{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.col-50{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+i{
+	color: yellow;
+	font-size: 2rem;
+}
+/* button css */
+.btn{
+	padding: 10px 25px;
+	background-color: #5B98F3;
+	border: 0px;
+	border-radius: 25px;
+	font-size: 1rem;
+	color: white;
+	text-transform: uppercase;
+}
+/* -- header part--  */
+header{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	width: 100%;
+	position: fixed;
+	background-color: #00000045;
+	overflow: hidden;
+    z-index: 99;
+}
+.company{
+	padding-left:35px;
+	float: left;
+}
+.company img{
+	float: left;
+	display: block;
+}
+.company h2{
+	float: left;
+	color: white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin: 10px;
+	
+}
+#main-menu{
+	padding-right: 35px;
+	float: right;
+	margin-top: 15px;
+}
+#main-menu ul{
+	list-style: none;
+}
+#main-menu ul li{
+	float: left;
+	margin: auto 1px;
+}
+#main-menu ul li a{
+	padding: 10px 25px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-size: .95rem;
+}
+#main-menu ul li a:hover{
+	background-color: #5B98F3;
+	color: orange !important;
+}
+.active a{
+	background-color: #5B98F3;
+	color: orange;
+}
+/* -- home part -- */
+#home{
+	background-image: url('../images/banner1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 0px;
+}
+#home p{
+	text-align: left;
+}
+#home img{
+	padding-left: 100px; 
+	display: block
+}
+/* -- About me part -- */
+#progress .col-33{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#progress h5{
+    text-align: left;
+	color: #846C6C;
+	text-transform: uppercase;
+}
+.progressbar{
+	height: 10px;
+	width: 100%;
+	background-color: #DCDCDC;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+.progress-achieve{
+	height: 10px;
+	width: 90%;
+	background-color: #008000;
+	border-radius: 5px;
+}
+.content{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+/* -- service part -- */
+#service{
+	background-image: url('../images/flatlay.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#service .content{
+	background-color: #ff0000;
+	border-radius: 5px;
+	padding: 70px;
+}
+#service .content:hover{
+	background-color: orange;
+	border-radius: 140px;
+}
+#service h3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#service p{
+	font-size: .9rem;
+	color: white;
+}
+/* -- project part -- */
+#project img{
+	height: 250px;
+	width: 100%;
+}
+#project .content{
+	position: relative;
+}
+#project .overlay{
+	position: absolute;
+	bottom: 15px;
+	width: auto;
+	background-color: cornflowerblue;
+    display: none;
+    left: 20px;
+    right: 20px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#project .content:hover .overlay{
+    display: block;
+}
+/* -- review part -- */
+#review{
+	background-image: url('../images/Small_Landscape.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#review h3{
+    color: white;
+    font-size: 2rem;
+    margin: 25px auto 30px;
+}
+#review h5{
+    font-size: 1rem;
+    color: white;
+}
+/* -- contact part -- */
+#contact{
+	background-image: url('../images/background-2462432_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contact h1{
+    color: white;
+    margin-bottom: 30px;
+}
+#contact form input,#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#contact textarea{
+    height: 160px;
+    font-size: 1rem;
+}
+#contact button{
+    border-radius: 5px; 
+    background-color: #216FE2#; 
+    padding: 15px 35px;
+}
+#address{
+    margin: 50px auto 10px;
+}
+#address p{
+    font-size: .9rem;
+    color: white;
+    margin-top: 15px;
+}
+/* ==== footer part ==== */
+footer{
+    overflow: hidden;
+    background-color: #F5F5F5;
+    padding: 25px 0; 
+}
+#copyright{
+    float: left;
+    margin: 10px;
+}
+#social{
+    float: right;
+}
+#social ul{
+    list-style: none;
+}
+#social ul li{
+    float: left;
+    margin: auto 15px;
+    height: 22px;
+    width: 30px;
+    border: 3px solid gray;
+    border-radius: 50%; /* same as 50px --- before used in this project --(modified time) 03.45 pm -- 16 sep 2020 --  */
+    padding-top: 7px;
+    text-align: center;
+}
+
+/* --- before -- i used this css for the last time -- worked well --same as upper css -- line no. 270 --- 
+
+#social ul li{
+    float: left;
+    height: 22px;
+    width: 30px;
+    border: 3px solid gray;
+    border-radius: 50%;        --- same as 50px --- before used in this project --(modified time) 03.45 pm -- 16 sep 2020 --  
+    padding-top: 7px;
+	margin-right: 0px;
+	margin-left: 30px;
+    text-align: center;
+}
+
+
+****************************************************before*************************************************
+
+*/
+
+
+#social ul li:last-child{
+    margin-right: 0px;
+}
+#social ul li i{
+    font-size: 1rem;
+    color: black;
+}
+/* -- navigation top upperButton -- */
+#upperButton{
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    right: 25px;
+    bottom: 53px; /* previously used 25 px which was accurate-- same as the tutorial */
+    background-color: black;
+    text-align: center;
+}
+#upperButton i{
+    font-size: 1rem;
+    padding-top: 7px;
+    color: #08ff3d;
+}
+/* ====== Device View ====== */
+@media(max-width: 1170px){
+	.container{
+		width: 100%;
+	}
+}
+@media(max-width: 576px){
+	.col-25, .col-33, .col-50{
+		width: 100%;
+	}
+	#home .col-50{
+		width: 50%;
+	}
+	#home img{
+		height: 150px;
+	}
+}
